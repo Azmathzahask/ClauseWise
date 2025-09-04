@@ -1,6 +1,7 @@
 import re
 import json
 from docx import Document
+import transformers
 import spacy
 import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
