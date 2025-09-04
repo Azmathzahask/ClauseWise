@@ -1,6 +1,7 @@
 import streamlit as st
 from clausewise.analyzer import extract_text, analyze_document
 import json
+import transformers
 import pandas as pd
 
 # Page configuration
