@@ -12,7 +12,7 @@ class HuggingFaceAnalyzer:
         if self.use_granite:
             # Note: The token should be passed securely, e.g., via Streamlit secrets.
             # Replace 'hf_YOUR_HUGGINGFACE_TOKEN_HERE' with your actual token.
-            HUGGINGFACE_TOKEN = "hf_YOUR_HUGGINGFACE_TOKEN_HERE"
+            HUGGINGFACE_TOKEN = "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"
             try:
                 self.text_pipeline = pipeline(
                     "text-generation",
